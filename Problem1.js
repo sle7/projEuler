@@ -1,5 +1,9 @@
 /**
- * Created by Sle7 on 10/1/2015.
+ * Created by sle7 on 10/1/2015.
+ */
+
+/*
+    Multiples of 3 and 5
  */
 
 var maxNum = 1000;

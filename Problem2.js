@@ -1,5 +1,9 @@
 /**
- * Created by Sle7 on 10/1/2015.
+ * Created by sle7 on 10/1/2015.
+ */
+
+/*
+    Even Fibonacci Numbers
  */
 
 var max = 4000000;
