@@ -7,13 +7,17 @@
  */
 
 var maxNum = 1000;
-var sum = 0;
 
-for( var i=1; i<maxNum; i++ ) {
-    if( i%3 === 0  || i%5 === 0 ) {
-        sum += i;
+var sum35multiple = function(num) {
+    var sum = 0;
+    for( var i=1; i<maxNum; i++ ) {
+        if( i%3 === 0  || i%5 === 0 ) {
+            sum += i;
+        }
     }
-}
-console.log(sum);
+    return sum;
+};
+
+console.log(sum35multiple(maxNum));
 
 
