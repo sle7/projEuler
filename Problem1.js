@@ -9,13 +9,13 @@
 var maxNum = 1000;
 
 var sum35multiple = function(num) {
-    var sum = 0;
-    for( var i=1; i<maxNum; i++ ) {
-        if( i%3 === 0  || i%5 === 0 ) {
-            sum += i;
-        }
+  var sum = 0;
+  for (var i = 1; i < maxNum; i++) {
+    if (i % 3 === 0 || i % 5 === 0) {
+      sum += i;
     }
-    return sum;
+  }
+  return sum;
 };
 
 console.log(sum35multiple(maxNum));
