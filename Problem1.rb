@@ -6,7 +6,7 @@
 num = 1000
 sum = 0
 
-(0..num - 1).each do |i|
+(0...num).each do |i|
   sum += i if i % 3 == 0 || i % 5 == 0
 end
 
