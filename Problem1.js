@@ -19,5 +19,3 @@ var sum35multiple = function(num) {
 };
 
 console.log(sum35multiple(maxNum));
-
-
